@@ -16,7 +16,9 @@
 4. HTML Structure
 
    - The HTML file (index.html) consists of the standard structure with a <head> section for metadata and a <body> section for the content.
-   - It includes a header (<div class="header">) displaying the event name, a section indicating the number of available seats (<div class="seats">), and a form container (<div class="form-container">) for attendee information.
+   - It includes a header (<div class="header">) displaying the event name, a section indicating the number of available seats
+   - (<div class="seats">), and a form container
+   - (<div class="form-container">) for attendee information.
    - The form includes fields for name, email, phone number, number of seats, and the name of a second attendee.
 
 5. CSS Styling
@@ -24,6 +26,7 @@
    - The CSS file (css/style.css) provides styling for various elements, creating a visually appealing and responsive layout.
    - Flexbox is used to structure and align elements within the form container.
    - The form is enclosed in a bordered container (<div class="border">) for a neat appearance.
+    
 6. Styling Details
 
   - Proper spacing and alignment for a clean and organized look.
