@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Event</title>
+        <link rel="stylesheet" href="./css/style.css" />
+        <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
+    </head>
+    <body>
+        <div class="header"><h1>Event 1</h1></div>
+        <div class="seats">
+            <p><b>No of available Seats: 23</b></p>
+        </div>
+        <div class="border">
+            <div class="content">
+                <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqpgCdTvgCGCcQSOG7D2ghl2vje_pBYtvvOaT-aSw26uzRsy8m" alt="Event" />
+                <div class="form-container">
+                    <label for="name">Name: <input type="text" id="name"
+                            name="name" required /></label>
+                    <label for="email">Email: <input type="email" id="email"
+                            name="email" required /></label>
+                    <label for="phone">Phone No: <input type="tel" id="phone"
+                            name="phone" required /></label>
+                    <label for="seats">Number of Seats:
+                        <select id="seats" name="seats">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <!-- Add more options as needed -->
+                        </select>
+                    </label>
+                    <label for="attendee2">Name of Attendee 2:
+                        <input type="text" id="attendee2" name="attendee2"
+                            required /></label>
+                    <div class="buttons">
+                        <button type="submit">Submit</button>
+                        <button type="button">Cancel</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
