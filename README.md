@@ -34,6 +34,6 @@
 
 7. Live Demo
 
-  - You can view a live demo of the Event 1 registration form on Netlify:
+  - You can view a live demo of the Event 1 registration form on Netlify: https://wwwneweventpage.netlify.app/
 
 * kindly Evaluvated My Submitted Task. Thankyou
